@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7228d4e5dd37d4098bbf65852779cc, type: 3}
+  m_Name: AppCoreSettings
+  m_EditorClassIdentifier: 
+  _loadingCanvas: {fileID: 114108204064334374, guid: 94e78ea85644345f4a5a0488cc10c45f,
+    type: 3}
+  _scenesEnum:
+    _draw: 1
+    _enumInfo:
+      _name: SceneName
+      _elements:
+      - InitScene
+      - Game
+  _pagesEnum:
+    _draw: 1
+    _enumInfo:
+      _name: PageType
+      _elements: []
+  _prefsKeyEnum:
+    _draw: 1
+    _enumInfo:
+      _name: PrefsKey
+      _elements:
+      - MasterVolume_d_float
+      - MusicVolume_d_float
+      - VolumeSound_d_float
+      - VolumeMusic_d_float
+      - BestScore_d_int
+  _dataContainerUsings:
+  - AppCore
